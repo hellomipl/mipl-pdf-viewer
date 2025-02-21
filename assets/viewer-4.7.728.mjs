@@ -30623,6 +30623,7 @@ class PDFThumbnailViewer {
 
   setDocument(pdfDocument) {
     // return;
+    console.warn('Thumbnail pdf loading')
     pdfDocument = pdfDocument || this.pdfDocument;
     this.initialized = false;
     if (this.pdfDocument) {
